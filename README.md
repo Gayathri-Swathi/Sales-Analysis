@@ -42,14 +42,35 @@ Added new columns to enhance analysis:
 
 Some key questions answered:
 
-* Count of distinct cities and product lines
-* Most used payment method
-* Highest revenue-generating product line
-* Monthly revenue trends
-* City with highest sales
-* Customer behavior analysis
-* Gender distribution across branches
-* Peak sales time and ratings analysis
+* What is the count of distinct cities in the dataset?
+* For each branch, what is the corresponding city?
+* What is the count of distinct product lines in the dataset?
+* Which payment method occurs most frequently?
+* Which product line has the highest sales?
+* How much revenue is generated each month?
+* In which month did the cost of goods sold reach its peak?
+* Which product line generated the highest revenue?
+* In which city was the highest revenue recorded?
+* Which product line incurred the highest Value Added Tax?
+* For each product line, add a column indicating "Good" if its sales are above average, otherwise "Bad."?
+* Identify the branch that exceeded the average number of products sold?
+* Which product line is most frequently associated with each gender?
+* Calculate the average rating for each product line?
+* Count the sales occurrences for each time of day on every weekday?
+* Identify the customer type contributing the highest revenue?
+* Determine the city with the highest VAT percentage?
+* Identify the customer type with the highest VAT payments?
+* What is the count of distinct customer types in the dataset?
+* What is the count of distinct payment methods in the dataset?
+* Which customer type occurs most frequently?
+* Identify the customer type with the highest purchase frequency?
+* Determine the predominant gender among customers?
+* Examine the distribution of genders within each branch?
+* Identify the time of day when customers provide the most ratings?
+* Determine the time of day with the highest customer ratings for each branch?
+* Identify the day of the week with the highest average ratings?
+* Determine the day of the week with the highest average ratings for each branch?
+
 
 ---
 
@@ -79,26 +100,4 @@ Some key questions answered:
 
 4. Run SQL queries to analyze data
 
----
 
-## 📁 Project Structure
-
-```
-Amazon-Sales-Analysis/
-│── amazon_sales.sql
-│── README.md
-```
-
----
-
-## 🚀 Future Improvements
-
-* Create dashboard using Power BI or Tableau
-* Automate analysis using Python (Pandas)
-* Add data visualization
-
----
-
-## ⭐ Conclusion
-
-This project demonstrates strong SQL skills including data cleaning, transformation, and business analysis. It highlights the ability to extract meaningful insights from raw data to support decision-making.
