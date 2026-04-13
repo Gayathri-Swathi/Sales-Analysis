@@ -1,8 +1,8 @@
-# 🛒 Amazon Sales Analysis
+# 🛒 Sales Analysis
 
 ## 📌 Project Overview
 
-This project analyzes Amazon sales data using SQL to uncover key business insights related to revenue, customer behavior, and product performance.
+This project analyzes sales data using SQL to uncover key business insights related to revenue, customer behavior, and product performance.
 
 * Cleaned and structured raw data
 * Performed feature engineering (time, day, month)
@@ -90,8 +90,8 @@ Some key questions answered:
 1. Create a database in MySQL:
 
    ```sql
-   CREATE DATABASE amazon;
-   USE amazon;
+   CREATE DATABASE sales;
+   USE sales;
    ```
 
 2. Create table using provided SQL script
